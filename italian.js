@@ -1,0 +1,19 @@
+function cta(){
+    window.open  ("https://www.instagram.com/seejam10/",  "_blank")
+}
+
+
+//scroll da page
+const myObserver = new IntersectionObserver((entries)=>{
+    entries.forEach((entry) =>{
+    if(entry.isIntersecting){
+        entry.target.classList.add('show')
+    }else{
+        entry.target.classList.remove('show')
+    }
+    })
+})
+
+const elements = document.querySelectorAll('.hidden')
+elements.forEach((elements) => myObserver.observe(elements))
+//scroll da page
