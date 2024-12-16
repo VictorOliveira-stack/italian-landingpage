@@ -7,6 +7,7 @@ section{
     min-height: 100vh;
 }
 
+
 .hidden{
     opacity: 0;
     filter: blur(15px);
@@ -28,10 +29,42 @@ section{
     background-size: cover;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.651);
 }
+@media (min-width: 320px) and (max-width: 504px){
+    #cabeçalho{
+        height: 7em;
+        display: flex;
+        width: 100%;
+    }
+}
+
+@media (min-width: 505px) and (max-width: 768px){}
+
+@media (min-width: 769px) and (max-width: 1024px){}
+
+@media (min-width: 1025px) and (max-width: 1280px){}
+
+@media (min-width: 1281px) and (max-width: 1440px){}
+
+@media (min-width: 1441px) and (max-width: 1920px){}
+
+@media (min-width: 1921px) and (max-width: 2650px){}
 
 #bandeirapai{
     display: flex;
 }
+@media (min-width: 320px) and (max-width: 504px){}
+
+@media (min-width: 505px) and (max-width: 768px){}
+
+@media (min-width: 769px) and (max-width: 1024px){}
+
+@media (min-width: 1025px) and (max-width: 1280px){}
+
+@media (min-width: 1281px) and (max-width: 1440px){}
+
+@media (min-width: 1441px) and (max-width: 1920px){}
+
+@media (min-width: 1921px) and (max-width: 2650px){}
 #bandeira{
     background-image: url("bandeira italia.png");
     background-size: cover;
@@ -70,6 +103,23 @@ section{
 
 
 }
+@media (min-width: 320px) and (max-width: 504px){
+    #cta{
+        margin-left: 1em;
+    }
+}
+
+@media (min-width: 505px) and (max-width: 768px){}
+
+@media (min-width: 769px) and (max-width: 1024px){}
+
+@media (min-width: 1025px) and (max-width: 1280px){}
+
+@media (min-width: 1281px) and (max-width: 1440px){}
+
+@media (min-width: 1441px) and (max-width: 1920px){}
+
+@media (min-width: 1921px) and (max-width: 2650px){}
 
 
 .ul1{
@@ -78,6 +128,24 @@ section{
     margin-left: 0;
     
 }
+@media (min-width: 320px) and (max-width: 504px){
+    .ul1{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 505px) and (max-width: 768px){}
+
+@media (min-width: 769px) and (max-width: 1024px){}
+
+@media (min-width: 1025px) and (max-width: 1280px){}
+
+@media (min-width: 1281px) and (max-width: 1440px){}
+
+@media (min-width: 1441px) and (max-width: 1920px){}
+
+@media (min-width: 1921px) and (max-width: 2650px){}
 .packingimage{
     background-image: linear-gradient( to bottom,rgb(255, 57, 74),rgb(247, 44, 61), rgb(206, 41, 55), rgb(170, 12, 26), rgb(102, 8, 16) ) ;
     width: 12em;
@@ -111,6 +179,19 @@ section{
     gap: 8em;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.651);
 }
+@media (min-width: 320px) and (max-width: 504px){}
+
+@media (min-width: 505px) and (max-width: 768px){}
+
+@media (min-width: 769px) and (max-width: 1024px){}
+
+@media (min-width: 1025px) and (max-width: 1280px){}
+
+@media (min-width: 1281px) and (max-width: 1440px){}
+
+@media (min-width: 1441px) and (max-width: 1920px){}
+
+@media (min-width: 1921px) and (max-width: 2650px){}
 
 #massa{
     
@@ -145,6 +226,19 @@ section{
     display: flex;
     gap: 4em;
 }
+@media (min-width: 320px) and (max-width: 504px){}
+
+@media (min-width: 505px) and (max-width: 768px){}
+
+@media (min-width: 769px) and (max-width: 1024px){}
+
+@media (min-width: 1025px) and (max-width: 1280px){}
+
+@media (min-width: 1281px) and (max-width: 1440px){}
+
+@media (min-width: 1441px) and (max-width: 1920px){}
+
+@media (min-width: 1921px) and (max-width: 2650px){}
 #restau{
     background-image: url('restaurante.jpg');
     background-size: cover;
@@ -175,6 +269,19 @@ section{
     border-radius: 10px;
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.651);
 }
+@media (min-width: 320px) and (max-width: 504px){}
+
+@media (min-width: 505px) and (max-width: 768px){}
+
+@media (min-width: 769px) and (max-width: 1024px){}
+
+@media (min-width: 1025px) and (max-width: 1280px){}
+
+@media (min-width: 1281px) and (max-width: 1440px){}
+
+@media (min-width: 1441px) and (max-width: 1920px){}
+
+@media (min-width: 1921px) and (max-width: 2650px){}
 
 .textoqueijos{
     color: rgb(6, 147, 74);
@@ -204,6 +311,13 @@ section{
     background-image: radial-gradient(circle ,rgb(240, 38, 55),rgb(226, 35, 51),rgb(168, 17, 29),rgb(122, 10, 20));
     height: 7em;
     width: 100%;
+}
+@media (min-width: 320px) and (max-width: 504px){
+    #footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 #divfoot{
