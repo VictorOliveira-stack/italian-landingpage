@@ -5,7 +5,9 @@ body{
 }
 section{
     min-height: 100vh;
+    margin-left: 0;
 }
+
 
 
 .hidden{
@@ -73,11 +75,25 @@ section{
     margin-left: 2em;
     margin-top: 2em;
 }
+@media (min-width: 320px) and (max-width: 504px){
+    #bandeira{
+        height: 3em;
+        width: 3em;
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+}
 #litalian{
     color: rgb(243, 242, 242) /*CE2937*/;
     font-size: 40pt;
     margin-top: 0.7em;
     margin-left: 1em;
+}
+@media (min-width: 320px) and (max-width: 504px){
+    #litalian{
+        font-size: 20pt;
+        margin-top: 0.7em;
+    }
 }
 #cta:hover{
     transform: scale(1.1);
@@ -105,7 +121,7 @@ section{
 }
 @media (min-width: 320px) and (max-width: 504px){
     #cta{
-        margin-left: 1em;
+        margin-left: 20%;
     }
 }
 
@@ -128,10 +144,18 @@ section{
     margin-left: 0;
     
 }
+@media (min-width: 320px) and (max-width: 374px){
+    .ul1{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+    }
+}
 @media (min-width: 320px) and (max-width: 504px){
     .ul1{
         display: flex;
         flex-direction: column;
+        margin-left: 8%;
     }
 }
 
@@ -179,7 +203,17 @@ section{
     gap: 8em;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.651);
 }
-@media (min-width: 320px) and (max-width: 504px){}
+@media (min-width: 320px) and (max-width: 504px){
+    #massas{
+        display: flex;
+        flex-direction: column;
+        height: 55em;
+        width: 100%;
+        gap: 2em;
+        margin-bottom: 3em;
+       
+    }
+}
 
 @media (min-width: 505px) and (max-width: 768px){}
 
@@ -203,12 +237,30 @@ section{
     width: 30em;
     border-radius: 10px;
 }
+@media (min-width: 320px) and (max-width: 504px){
+    #massa{
+        background-image: url('fazendo massa.jpeg');
+        height: 15em;
+        width: 15em;
+        margin-left: 20%;
+
+    }
+}
 #textomassa{
     margin-top: 1.5em;
     color: white;
     font-size: 15pt;
-    
+     word-wrap: break-word;
 }
+
+@media (min-width: 320px) and (max-width: 504px){
+    .ttx{
+        margin-left: 3em;
+        width: 80%;
+        word-wrap: break-word;
+    }
+}
+
 
 #verde{
     width: 100%;
@@ -226,7 +278,13 @@ section{
     display: flex;
     gap: 4em;
 }
-@media (min-width: 320px) and (max-width: 504px){}
+@media (min-width: 320px) and (max-width: 767px){
+    #restaurante{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+}
 
 @media (min-width: 505px) and (max-width: 768px){}
 
@@ -239,7 +297,7 @@ section{
 @media (min-width: 1441px) and (max-width: 1920px){}
 
 @media (min-width: 1921px) and (max-width: 2650px){}
-#restau{
+.restau{
     background-image: url('restaurante.jpg');
     background-size: cover;
     height: 18em;
@@ -248,12 +306,28 @@ section{
     border-radius: 10px;
     
 }
+@media (min-width: 320px) and (max-width: 504px){
+    .restau{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+        height: 15rem;
+        width: 15rem;
+    }
+}
+
 #textorestau{
     margin-top: 1.5em;
     font-size: 18pt;
     font-weight: 600;
     color: rgb(255, 57, 74);
 }
+@media (min-width: 320px) and (max-width: 504px){
+    #textorestau{
+        margin-left: 32%;
+    }
+}
+
 #reservadorestau{
     background-image: url('reservo.jpg');
     background-size: cover;
@@ -262,6 +336,7 @@ section{
     border-radius: 10px;
 }
 
+
 #queijos{
    margin-left: 11em;
     width: 78%;
@@ -269,7 +344,16 @@ section{
     border-radius: 10px;
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.651);
 }
-@media (min-width: 320px) and (max-width: 504px){}
+@media (min-width: 320px) and (max-width: 767px){
+    #queijos{
+        width: 90%;
+        height: 10em;
+        display: flex;
+        flex-direction: column;
+        margin-left: 1em;
+        margin-top: 4em;
+    }  
+}
 
 @media (min-width: 505px) and (max-width: 768px){}
 
@@ -290,6 +374,11 @@ section{
     font-weight: 600;
    
 }
+@media (min-width: 320px) and (max-width: 504px){
+    .textoqueijos{
+        margin-left: 12%;
+    }
+}
 
 #textoqueijos{
     
@@ -297,15 +386,21 @@ section{
     letter-spacing: 4px;
     
 }
+@media (min-width: 320px) and (max-width: 504px){
+    #textoqueijos{
+        font-size: 20pt;
+    }
+}
 #lazio{
     padding-left: 2.5em;
 }
-
-#insta{
-    width: 4em;
-    height: 4em;
-    cursor: pointer;
+@media (min-width: 320px) and (max-width: 504px){
+    #lazio{
+        padding-left: 0;
+    }
 }
+
+
 
 #footer{
     background-image: radial-gradient(circle ,rgb(240, 38, 55),rgb(226, 35, 51),rgb(168, 17, 29),rgb(122, 10, 20));
@@ -325,4 +420,13 @@ section{
     display: flex; 
     margin-left: 30%;
     gap: 10em;
+}
+@media (min-width: 320px) and (max-width: 504px){
+    #divfoot{
+        gap: 30px
+    }
+}
+
+.whatsapp{
+    height: 2em; width: 2em; cursor: pointer;
 }
