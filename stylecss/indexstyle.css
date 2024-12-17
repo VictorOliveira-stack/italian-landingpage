@@ -7,6 +7,15 @@ section{
     min-height: 100vh;
     margin-left: 0;
 }
+@media (min-width: 1441px) and (max-width: 1920px){
+    
+}
+@media (min-width: 1921px) and (max-width: 2650px){
+    section{
+        min-height: 50vh;
+        margin-left: 0;
+    }
+}
 
 
 
@@ -55,7 +64,11 @@ section{
 
 @media (min-width: 1441px) and (max-width: 1920px){}
 
-@media (min-width: 1921px) and (max-width: 2650px){}
+@media (min-width: 1921px) and (max-width: 2650px){
+    #cabeçalho{
+        height: 25em;
+    }
+}
 
 #bandeirapai{
     display: flex;
@@ -150,9 +163,18 @@ section{
 
 @media (min-width: 1281px) and (max-width: 1440px){}
 
-@media (min-width: 1441px) and (max-width: 1920px){}
+@media (min-width: 1441px) and (max-width: 1920px){
+    #cta{
+        margin-left: 42%;
+    }
+}
 
-@media (min-width: 1921px) and (max-width: 2650px){}
+@media (min-width: 1921px) and (max-width: 2650px){
+    #cta{
+        margin-top: 10em;
+        margin-left: 45%;
+    }
+}
 
 
 
@@ -178,12 +200,7 @@ section{
 }
 @media (min-width: 769px) and (max-width: 1024px){
     .ul1{
-       gap: 0.3em;
-       padding-left: 0;
-       
-        
-        
- 
+     
      }
 }
 
@@ -195,9 +212,19 @@ section{
 
 @media (min-width: 1281px) and (max-width: 1440px){}
 
-@media (min-width: 1441px) and (max-width: 1920px){}
+@media (min-width: 1441px) and (max-width: 1920px){
+    .ul1{
+        margin-top: 4em;
+        margin-left: 13%;
+    }
+}
 
-@media (min-width: 1921px) and (max-width: 2650px){}
+@media (min-width: 1921px) and (max-width: 2650px){
+    .ul1{
+        margin-top: 10em;
+        margin-left: 23.5%;
+    }
+}
 
 .packingimage{
     background-image: linear-gradient( to bottom,rgb(255, 57, 74),rgb(247, 44, 61), rgb(206, 41, 55), rgb(170, 12, 26), rgb(102, 8, 16) ) ;
@@ -220,7 +247,7 @@ section{
 @media (min-width: 769px) and (max-width: 1024px){
     .packingimage{
         
-       margin-left: 0;
+        padding-left: 1.8em;
         height: 30em;
     }
 }
@@ -268,13 +295,25 @@ section{
     }
 }
 
-@media (min-width: 769px) and (max-width: 1024px){}
+@media (min-width: 769px) and (max-width: 1024px){
+    #massas{
+
+        word-wrap: break-word;
+        gap: 1em;
+        
+    }
+    
+}
 
 @media (min-width: 1025px) and (max-width: 1280px){}
 
 @media (min-width: 1281px) and (max-width: 1440px){}
 
-@media (min-width: 1441px) and (max-width: 1920px){}
+@media (min-width: 1441px) and (max-width: 1920px){
+    #massas{
+        padding-left: 8%;
+    }
+}
 
 @media (min-width: 1921px) and (max-width: 2650px){}
 
@@ -307,6 +346,12 @@ section{
 
     }
 }
+@media (min-width: 769px) and (max-width: 1024px){
+    #massa{
+        margin-left: 3%;
+    }
+}
+
 #textomassa{
     margin-top: 1.5em;
     color: white;
@@ -328,7 +373,11 @@ section{
         word-wrap: break-word;
     }
 }
-
+@media (min-width: 1441px) and (max-width: 1920px){
+    .ttx{
+        margin-top: 4em;
+    }
+}
 
 #verde{
     width: 100%;
@@ -362,15 +411,27 @@ section{
     }
 }
 
-@media (min-width: 769px) and (max-width: 1024px){}
+/*@media (min-width: 769px) and (max-width: 1024px){
+    #restaurante{
+       
+    }
+}*/
 
 @media (min-width: 1025px) and (max-width: 1280px){}
 
 @media (min-width: 1281px) and (max-width: 1440px){}
 
-@media (min-width: 1441px) and (max-width: 1920px){}
+@media (min-width: 1441px) and (max-width: 1920px){
+    #restaurante{
+        margin-left: 13%;
+    }
+}
 
-@media (min-width: 1921px) and (max-width: 2650px){}
+@media (min-width: 1921px) and (max-width: 2650px){
+    #restaurante{
+        margin-left: 20%;
+    }
+}
 
 .restau{
    
@@ -398,6 +459,21 @@ section{
         width: 25rem;
     }
 }
+@media (min-width: 769px) and (max-width: 1024px){
+    .restau{
+        margin-left: 5%;
+        height: 20rem;
+        width: 20rem;
+        margin-top: 8em;
+        margin-bottom: 8em;
+    }
+}
+@media (min-width: 1921px) and (max-width: 2650px){
+    .restau{
+        height: 35em;
+        width: 35em;
+    }
+}
 
 #textorestau{
     margin-top: 1.5em;
@@ -413,6 +489,17 @@ section{
 @media (min-width: 505px) and (max-width: 768px){
     #textorestau{
         margin-left: 35%;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    #textorestau{
+        margin-top: 7em;
+    }
+}
+@media (min-width: 1921px) and (max-width: 2650px){
+    #textorestau{
+        margin-top: 2em;
+        font-size: 30pt;
     }
 }
 #restaurantefoto1{
@@ -472,7 +559,11 @@ section{
     }  
 }
 
-@media (min-width: 769px) and (max-width: 1024px){}
+@media (min-width: 769px) and (max-width: 1024px){
+    #queijos{
+        margin-left: 10%;
+    }
+}
 
 @media (min-width: 1025px) and (max-width: 1280px){}
 
@@ -480,7 +571,14 @@ section{
 
 @media (min-width: 1441px) and (max-width: 1920px){}
 
-@media (min-width: 1921px) and (max-width: 2650px){}
+@media (min-width: 1921px) and (max-width: 2650px){
+    #queijos{
+        margin-top: 23em;
+        margin-left: 5%;
+        height: 38em;
+        width: 90%;
+    }
+}
 
 .textoqueijos{
     color: rgb(6, 147, 74);
@@ -504,6 +602,18 @@ section{
         margin-left: 19%;
     }
 }
+@media (min-width: 1441px) and (max-width: 1920px){
+    .textoqueijos{
+        margin-left: 28%;
+    }
+}
+@media (min-width: 1921px) and (max-width: 2650px){
+    .textoqueijos{
+        margin-top: 4em;
+        margin-left: 28%;
+        font-size: 30pt;
+    }
+}
 
 #textoqueijos{
     
@@ -514,6 +624,17 @@ section{
 @media (min-width: 320px) and (max-width: 504px){
     #textoqueijos{
         font-size: 20pt;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    #textoqueijos{
+        margin-left: 3em;
+    }
+}
+@media (min-width: 1921px) and (max-width: 2650px){
+    #textoqueijos{
+        font-size: 35pt;
+        margin-left: 34%;
     }
 }
 /*.ttx{
@@ -529,6 +650,8 @@ section{
        
     }   
 }
+
+
 
 #lazio{
     padding-left: 2.5em;
@@ -583,7 +706,16 @@ section{
         margin-left: 40%;
     }
 }
-
+@media (min-width: 1441px) and (max-width: 1920px){
+    #divfoot{
+        margin-left: 38%;
+    }
+}
+@media (min-width: 1921px) and (max-width: 2650px){
+    #divfoot{
+        margin-left: 42%;
+    }
+}
 .whatsapp{
     height: 2em; width: 2em; cursor: pointer;
 }
