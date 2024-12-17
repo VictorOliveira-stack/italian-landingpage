@@ -222,7 +222,7 @@ section{
 @media (min-width: 1921px) and (max-width: 2650px){
     .ul1{
         margin-top: 10em;
-        margin-left: 23.5%;
+        margin-left: 11%;
     }
 }
 
@@ -247,8 +247,21 @@ section{
 @media (min-width: 769px) and (max-width: 1024px){
     .packingimage{
         
-        padding-left: 1.8em;
+        padding-left: 1.1em;
         height: 30em;
+    }
+}
+@media (min-width: 1921px) and (max-width: 2650px){
+    .packingimage{
+        background-image: linear-gradient( to bottom,rgb(255, 57, 74),rgb(247, 44, 61), rgb(206, 41, 55), rgb(170, 12, 26), rgb(102, 8, 16) ) ;
+        width: 20em;
+        height: 25em;
+        border-radius: 30px;
+        padding-left: 3em;
+        padding-top: 0.5em;
+        color: white;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.651);
+       
     }
 }
 .comidas{
@@ -256,6 +269,22 @@ section{
     width: 9em;
     height: 9em;
     border-radius: 30px;
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    .comidas{
+        background-size: cover;
+        width: 8em;
+        height: 8em;
+        border-radius: 30px;
+    }
+    
+}
+@media (min-width: 1921px) and (max-width: 2650px){
+    .comidas{
+        width: 13em;
+        height: 10em;
+        margin-left: 2.5em;
+    }
 }
 /*.textoscomida{
     padding-top: 0.5em;
@@ -351,6 +380,11 @@ section{
         margin-left: 3%;
     }
 }
+@media (min-width: 1921px) and (max-width: 2650px){
+    #massa{
+        margin-left: 25%;
+    }
+}
 
 #textomassa{
     margin-top: 1.5em;
@@ -374,6 +408,11 @@ section{
     }
 }
 @media (min-width: 1441px) and (max-width: 1920px){
+    .ttx{
+        margin-top: 4em;
+    }
+}
+@media (min-width: 1921px) and (max-width: 2650px){
     .ttx{
         margin-top: 4em;
     }
